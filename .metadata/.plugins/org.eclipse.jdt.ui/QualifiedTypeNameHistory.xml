@@ -11,4 +11,7 @@
     <fullyQualifiedTypeName name="java.net.URL"/>
     <fullyQualifiedTypeName name="java.nio.charset.MalformedInputException"/>
     <fullyQualifiedTypeName name="java.net.MalformedURLException"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.cg.eis.bean.Employee"/>
+    <fullyQualifiedTypeName name="java.util.ServiceConfigurationError"/>
 </qualifiedTypeNameHistroy>

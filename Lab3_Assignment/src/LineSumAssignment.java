@@ -17,14 +17,6 @@ public class LineSumAssignment {
 		String integerLine = in.nextLine();
 		displayEachIntegerAndSum(integerLine);
 	}
-	/*
-	 * A method to display each integer in a line of integers and then sum of all integers.
-	 * Use StringTokenizer class with space(" ") as delimeter to break the line into integer tokens.
-	 * After breaking into tokens it convert the token from string to integer.
-	 * Display that integer token.
-	 * Add it to the sum.
-	 * Finally display the total sum.
-	 */
 	public static void displayEachIntegerAndSum(String integerLine) {
 		StringTokenizer st = new StringTokenizer(integerLine," ");
 		int sum = 0;

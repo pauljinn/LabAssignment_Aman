@@ -14,8 +14,6 @@ public class CommandAssignment {
 	 */
 	public static String fetchCommand(String url) {
 		String[] splittedUrl = url.split("[/.]+");
-		for(String i:splittedUrl)
-			System.out.println(i);
 		return splittedUrl[splittedUrl.length-2];
 	}
 
