@@ -6,12 +6,20 @@
 public class SecondSmallestAssignment {
 
 	public static void main(String[] args) {
+		/**
+		 * Creating an array of integers.
+		 */
 		int integerArray[] = {9,4,2,7};
+		/**
+		 * Printing the second smallest element in the array by calling appropriate method.
+		 */
 		System.out.println("The second smallest element in the array is: " + getSecondSmallest(integerArray));
 
 	}
 	/**
 	 * A method to return second smallest element in the integer array.
+	 * @param integerArray whose second smallest element has to find.
+	 * @return the second smallest element from integerArray.
 	 */
 	public static int getSecondSmallest(int[] integerArray) {
 		/**

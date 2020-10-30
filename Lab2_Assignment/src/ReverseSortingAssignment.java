@@ -22,11 +22,13 @@ public class ReverseSortingAssignment {
 			System.out.print(i + " ");
 		}
 	}
-	/*
+	/**
 	 * A method to sort the number in integer array after reversing each number in it.
+	 * @param numberArray for reversing each number and then sorting it.
+	 * @return the reversed number sorted array.
 	 */
 	public static int[] getSorted(int[] numberArray) {
-		/*
+		/**
 		 * Reversing each number in the number array got as argument.
 		 */
 		for(int i=0;i<numberArray.length;i++) {
@@ -37,7 +39,7 @@ public class ReverseSortingAssignment {
 			}
 			numberArray[i] = Integer.parseInt(reverse);
 		}
-		/*
+		/**
 		 * Sorting the reversed number array using bubble sort.
 		 */
 		for(int i=0;i<numberArray.length-1;i++) {
@@ -59,7 +61,7 @@ public class ReverseSortingAssignment {
 			if(!swap)
 				break;
 		}
-		/*
+		/**
 		 * Return the reverse number sorted array
 		 */
 		return numberArray;
