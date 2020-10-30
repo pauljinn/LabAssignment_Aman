@@ -15,8 +15,13 @@ public class LineSumAssignment {
 		System.out.print("Enter a line of integers separated by space: ");
 		Scanner in = new Scanner(System.in);
 		String integerLine = in.nextLine();
+		in.close();
 		displayEachIntegerAndSum(integerLine);
 	}
+	/**
+	 * A method to display integers and the sum of them present in a line with space.
+	 * @param integerLine represent a line of integers separated by spaces.
+	 */
 	public static void displayEachIntegerAndSum(String integerLine) {
 		StringTokenizer st = new StringTokenizer(integerLine," ");
 		int sum = 0;

@@ -1,7 +1,6 @@
 /**
  * Desc : Calculating the duration between current date and date provided in days, months and years.
  * @author Aman Soni
- *
  */
 import java.time.LocalDate;
 import java.time.Period;
@@ -10,7 +9,6 @@ import java.time.format.DateTimeFormatter;
 public class DateAssignment {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		printDuration("14-10-2014");
 
 	}
