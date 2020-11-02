@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
@@ -14,4 +13,16 @@
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="com.cg.eis.bean.Employee"/>
     <fullyQualifiedTypeName name="java.util.ServiceConfigurationError"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="com.capgemini.pizzaapp.dao.IDao"/>
+    <fullyQualifiedTypeName name="com.capgemini.pizzaap.utility.UpdateMenu"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.capgemini.pizzaapp.utility.GiveStringCrustType"/>
+    <fullyQualifiedTypeName name="com.capgemini.pizzaapp.utility.GiveStringTopping"/>
+    <fullyQualifiedTypeName name="com.capgemini.pizzaapp.utility.GiveStringSize"/>
+    <fullyQualifiedTypeName name="com.capgemini.pizzaapp.utility.UpdateMenu"/>
+    <fullyQualifiedTypeName name="com.capgemini.pizzaapp.service.IPizzaService"/>
+    <fullyQualifiedTypeName name="com.capgemini.pizzaapp.util.GiveStringToppingUtil"/>
+    <fullyQualifiedTypeName name="com.capgemini.pizzaapp.util.GiveStringSizeUtil"/>
+    <fullyQualifiedTypeName name="com.capgemini.pizzaapp.daoimpl.Dao"/>
 </qualifiedTypeNameHistroy>

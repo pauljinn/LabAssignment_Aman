@@ -49,6 +49,8 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\Aman Soni\Desktop\Virutal Onboarding Program\LabAssignments\Lab2_Assignment"/>
+			<item value="C:\Users\Aman Soni\Desktop\Virutal Onboarding Program\LabAssignments\Lab1_Assignment"/>
 			<item value="C:\Users\Aman Soni\Desktop\Virutal Onboarding Program\LabAssignments\Lab3_Assignment"/>
 		</list>
 	</section>
