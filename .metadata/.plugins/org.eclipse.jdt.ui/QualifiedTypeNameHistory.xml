@@ -25,4 +25,6 @@
     <fullyQualifiedTypeName name="com.capgemini.pizzaapp.util.GiveStringToppingUtil"/>
     <fullyQualifiedTypeName name="com.capgemini.pizzaapp.util.GiveStringSizeUtil"/>
     <fullyQualifiedTypeName name="com.capgemini.pizzaapp.daoimpl.Dao"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+    <fullyQualifiedTypeName name="java.util.regex.Matcher"/>
 </qualifiedTypeNameHistroy>
