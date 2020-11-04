@@ -43,9 +43,22 @@ public class MedicineClient {
 				 */
 				System.out.print("Enter the name of the tablet: ");
 				String tabletName = in.nextLine();
-				System.out.print("Enter the price of tablet: ");
-				double tabletPrice = in.nextDouble();
-				in.nextLine();
+				boolean validPrice = false;
+				double tabletPrice= 0.0d;
+				do {
+					try {
+						System.out.print("Enter the price of tablet: ");
+						tabletPrice = in.nextDouble();
+						in.nextLine();
+						if(tabletPrice<=0 || tabletPrice>10000) {
+							throw new InvalidPriceException("Price can't be below or equal to 0 and more than 10000");
+						}
+						validPrice = true;
+					}
+					catch(InvalidPriceException invalidPrice) {
+						System.out.println(invalidPrice.getMessage());
+					}
+				}while(!validPrice);
 				System.out.print("Enter the company name of tablet: ");
 				String tabletCompanyName = in.nextLine();
 				System.out.print("Enter the expiry date of tablet: ");
@@ -66,9 +79,22 @@ public class MedicineClient {
 				 */
 				System.out.print("Enter the name of the ointment: ");
 				String ointmentName = in.nextLine();
-				System.out.print("Enter the price of ointment: ");
-				double ointmentPrice = in.nextDouble();
-				in.nextLine();
+				boolean validPrice = false;
+				double ointmentPrice=0.0d;
+				do {
+					try {
+						System.out.print("Enter the price of ointment: ");
+						ointmentPrice = in.nextDouble();
+						in.nextLine();
+						if(ointmentPrice<=0 || ointmentPrice>10000) {
+							throw new InvalidPriceException("Price can't be below or equal to 0 and more than 10000");
+						}
+						validPrice = true;
+					}
+					catch(InvalidPriceException invalidPrice) {
+						System.out.println(invalidPrice.getMessage());
+					}
+				}while(!validPrice);
 				System.out.print("Enter the company name of ointment: ");
 				String ointmentCompanyName = in.nextLine();
 				System.out.print("Enter the expiry date of ointment: ");
@@ -89,9 +115,22 @@ public class MedicineClient {
 				 */
 				System.out.print("Enter the name of the syrup: ");
 				String syrupName = in.nextLine();
-				System.out.print("Enter the price of syrup: ");
-				double syrupPrice = in.nextDouble();
-				in.nextLine();
+				boolean validPrice = false;
+				double syrupPrice=0.0d;
+				do {
+					try {
+						System.out.print("Enter the price of tablet: ");
+						syrupPrice = in.nextDouble();
+						in.nextLine();
+						if(syrupPrice<=0 || syrupPrice>10000) {
+							throw new InvalidPriceException("Price can't be below or equal to 0 and more than 10000");
+						}
+						validPrice = true;
+					}
+					catch(InvalidPriceException invalidPrice) {
+						System.out.println(invalidPrice.getMessage());
+					}
+				}while(!validPrice);
 				System.out.print("Enter the company name of syrup: ");
 				String syrupCompanyName = in.nextLine();
 				System.out.print("Enter the expiry date of syrup: ");
